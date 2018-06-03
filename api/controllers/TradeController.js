@@ -6,7 +6,11 @@
  */
 
 module.exports = {
-  
+  postgres: {
+    adapter: 'sails-postgresql',
+    host: 'localhost',
+    database: 'trade'
+  }
 
 };
 
