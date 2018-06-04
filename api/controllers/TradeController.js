@@ -6,11 +6,11 @@
  */
 
 module.exports = {
-  postgres: {
-    adapter: 'sails-postgresql',
-    url: process.env.DATABASE_URL || 'postgres://localhost/trade'
+  // postgres: {
+  //   adapter: 'sails-postgresql',
+  //   url: process.env.DATABASE_URL || 'postgres://localhost/trade'
 
-  }
+  // }
 
 };
 
