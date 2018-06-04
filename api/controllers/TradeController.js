@@ -8,8 +8,8 @@
 module.exports = {
   postgres: {
     adapter: 'sails-postgresql',
-    host: 'localhost',
-    database: 'trade'
+    url: process.env.DATABASE_URL || 'postgres://localhost/trade'
+
   }
 
 };
